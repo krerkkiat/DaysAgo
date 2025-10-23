@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Sharprompt" Version="3.0.1" />
   </ItemGroup>
 
