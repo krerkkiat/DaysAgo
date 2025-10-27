@@ -17,7 +17,7 @@ public class Program
         }
     }
 
-    protected static void CancelKeyPressHandler(object sender, ConsoleCancelEventArgs args)
+    protected static void CancelKeyPressHandler(object? sender, ConsoleCancelEventArgs args)
     {
         Console.WriteLine("\nBye!");
         args.Cancel = true;
